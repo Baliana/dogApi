@@ -11,7 +11,7 @@ function criarImagem(link){
     const galeria = document.getElementById('galeria')
     const novaImg = document.createElement('img')
     novaImg.src = link
-    console.log(galeria)
+    //console.log(galeria)
     galeria.appendChild(novaImg)
 
 }
